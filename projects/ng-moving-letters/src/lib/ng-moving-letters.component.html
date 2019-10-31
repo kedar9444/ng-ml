@@ -10,9 +10,14 @@
 
 
 <ng-container *ngIf="type === 'ML2'">
-    <h1 class="ml9">
-      <span class="text-wrapper">
-        <span #content class="letters">{{word}}</span>
-      </span>
-    </h1>
-  </ng-container>
+  <h1 class="ml9">
+    <span class="text-wrapper">
+      <span #content class="letters">{{word}}</span>
+    </span>
+  </h1>
+</ng-container>
+
+
+<ng-container *ngIf="type === 'ML3'">
+  <h1 #content class="ml3">{{word}}</h1>
+</ng-container>
