@@ -10,7 +10,7 @@ export class NgMovingLettersComponent implements AfterViewInit {
   @Input() word: string;
   @Input() type: string;
 
-  @ViewChild('content', {static: false}) content: any;
+  @ViewChild('content', { static: false }) content: any;
 
   public ml4: any;
 
@@ -30,6 +30,10 @@ export class NgMovingLettersComponent implements AfterViewInit {
     switch (this.type) {
       case 'ML1':
         this.ML1();
+        break;
+
+      case 'ML2':
+        this.ML2();
         break;
 
       default:
@@ -68,6 +72,11 @@ export class NgMovingLettersComponent implements AfterViewInit {
         easing: 'easeOutExpo',
         delay: 1000
       });
+  }
+
+  public ML2() {
+
+
   }
 
 }
