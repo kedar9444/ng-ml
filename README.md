@@ -1,6 +1,11 @@
-# MovingLetters
+# Moving Letters
+Moving letters is the angular NPM library which provides ready to use components to implement [Moving Letters](https://tobiasahlin.com/moving-letters/) concept implemented by Tobias Bjerrome Ahlin.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+To run this project, you have to build the application first and then run serve command.
+
+npm run build:lib     
+npm run serve:app
+
 
 ## Development server
 
@@ -25,3 +30,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Contribution guidlines
+
+Coming soon.

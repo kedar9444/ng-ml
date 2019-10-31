@@ -1,0 +1,11 @@
+{
+  "name": "ng-moving-letters",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0"
+  },
+  "dependencies": {
+    "animejs": "2.0.2"
+  }
+}

@@ -1,0 +1,41 @@
+body {
+  position: relative;
+  font: normal 16px/1.9em "Inter", "Source Sans Pro","Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+
+.navbar-header {
+  float: left;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+.navbar-brand {float:none;}
+
+.bg-dark {
+  background-color: #000000!important
+}
+
+
+.content-position-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 420px;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.ml1-container {
+  background-color: #9ba5b5;
+  color: white;
+}
+

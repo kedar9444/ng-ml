@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-moving-letters": [
+        "dist/ng-moving-letters"
+      ],
+      "ng-moving-letters/*": [
+        "dist/ng-moving-letters/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
