@@ -40,6 +40,10 @@ export class NgMovingLettersComponent implements AfterViewInit {
         this.ML3();
         break;
 
+      case 'ML4':
+        this.ML4();
+        break;
+
       default:
         this.ML1();
         break;
@@ -102,6 +106,55 @@ export class NgMovingLettersComponent implements AfterViewInit {
         easing: 'easeOutExpo',
         delay: 1000
       });
+  }
+
+
+  public ML4() {
+
+    anime.timeline({ loop: true })
+      .add({
+        targets: '.ml4 .letters-1',
+        opacity: this.ml4.opacityIn,
+        scale: this.ml4.scaleIn,
+        duration: this.ml4.durationIn
+      }).add({
+        targets: '.ml4 .letters-1',
+        opacity: 0,
+        scale: this.ml4.scaleOut,
+        duration: this.ml4.durationOut,
+        easing: 'easeInExpo',
+        delay: this.ml4.delay
+      }).add({
+        targets: '.ml4 .letters-2',
+        opacity: this.ml4.opacityIn,
+        scale: this.ml4.scaleIn,
+        duration: this.ml4.durationIn
+      }).add({
+        targets: '.ml4 .letters-2',
+        opacity: 0,
+        scale: this.ml4.scaleOut,
+        duration: this.ml4.durationOut,
+        easing: 'easeInExpo',
+        delay: this.ml4.delay
+      }).add({
+        targets: '.ml4 .letters-3',
+        opacity: this.ml4.opacityIn,
+        scale: this.ml4.scaleIn,
+        duration: this.ml4.durationIn
+      }).add({
+        targets: '.ml4 .letters-3',
+        opacity: 0,
+        scale: this.ml4.scaleOut,
+        duration: this.ml4.durationOut,
+        easing: 'easeInExpo',
+        delay: this.ml4.delay
+      }).add({
+        targets: '.ml4',
+        opacity: 0,
+        duration: 500,
+        delay: 500
+      });
+
   }
 
 
