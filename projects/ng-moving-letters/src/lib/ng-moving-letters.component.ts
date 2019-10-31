@@ -7,7 +7,7 @@ import anime from 'animejs';
   styleUrls: ['./ng-moving-letters.component.css']
 })
 export class NgMovingLettersComponent implements AfterViewInit {
-  @Input() word: string;
+  @Input() word: string[];
   @Input() type: string;
 
   @ViewChild('content', { static: false }) content: any;
